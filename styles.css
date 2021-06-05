@@ -37,7 +37,7 @@ p {
 .tab button {
   background-color: inherit;
   float: left;
-  border: none;
+  border: 1px solid #ccc;
   outline: none;
   cursor: pointer;
   padding: 14px 16px;
@@ -64,7 +64,7 @@ p {
 
 /* Set height of body and the document to 100% to enable "full page tabs" */
 body, html {
-  height: 100%;
+  height: auto%;
   margin: 0;
   font-family: Arial;
 }
@@ -79,7 +79,7 @@ body, html {
   cursor: pointer;
   padding: 14px 16px;
   font-size: 17px;
-  width: 25%;
+  width: 33.3333333333%;
 }
 
 .tablink:hover {
@@ -91,7 +91,7 @@ body, html {
   color: white;
   display: none;
   padding: 100px 20px;
-  height: 100%;
+  height: auto;
 }
 
 table, th, td {
