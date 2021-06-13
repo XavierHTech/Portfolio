@@ -1,3 +1,5 @@
+
+
 .content {
   max-width: 800px;
   margin: auto;
@@ -12,13 +14,18 @@ body {
   color: white;
 }
 
+b {
+	font-weight: bold;
+	color: sandybrown;
+}
+
 h1 {
   color: cyan;
   margin-left: 20px;
 }
 
 h2 {
-  color: yellow;
+  color: gold;
 }
 
 
@@ -98,7 +105,59 @@ table, th, td {
   border: 1px solid black;
 }
 
-#Home {background-color: 880906;}
-#News {background-color: 479c44;}
-#Contact {background-color: 0f8dd2;}
-#About {background-color: e09200;}
+#Home {background-color: 3b100e;}
+#Projects {background-color: 193618;}
+#Contact {background-color: 472f01;}
+
+
+
+ /* Style all font awesome icons */
+ .fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+ 
+.fab {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-linkedin {
+	background: #0A66C2;
+	color: white;
+}
+
+.fa-envelope {
+	background: orange;
+	color: white;
+}
+ 
+ .fa-github {
+	 background: green;
+	 color: white;
+ }
